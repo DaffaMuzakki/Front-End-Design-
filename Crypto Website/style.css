@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Screenshot-184.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 90px;
+    border-radius: 50px;
+    box-shadow: 5px 4px 2px #7f00b6;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 40px;
+
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .btn{
+    color: #ffffff;
+    text-decoration: none;
+    border: 3px solid #7f00b6;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+.content{
+    margin-top: 12%;
+}
+
+.content h1{
+    font-size: 65px;
+    margin-bottom: 10px;
+    text-shadow: 3px 2px 1px #c800ff;
+}
+
+.content h1 span{
+    color: #bb0cf0;
+}
+
+.content p{
+    line-height: 26px;
+    font-size: 20px;
+    text-shadow: 3px 2px 1px #7f00b6;
+}
+
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #bb0cf0;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.coin h3{
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 8px;
+}
